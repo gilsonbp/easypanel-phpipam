@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
 RUN a2enmod rewrite
 
 # Define a versão do phpipam que queremos instalar (use uma versão estável)
-ENV PHPIPAM_VERSION=1.6.0
+ENV PHPIPAM_VERSION=latest
 
 # Baixa o código-fonte do phpipam do GitHub e o extrai para o diretório do servidor web
 # CORREÇÃO: Removido o "v" do link de download
